@@ -21,16 +21,16 @@
             text-align: center; 
         }
         .logo {
-            max-width: 420px;
+            max-width: 120px;
             height: auto;
-            margin: 1.5rem auto 1rem;
-            border-radius: 8px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin: 1rem auto 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
         h1 { 
             margin: 0; 
             font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
+            font-size: 3.2rem;
             letter-spacing: 2px;
         }
         .container { 
@@ -44,6 +44,17 @@
             text-align: center;
             padding: 2rem;
             margin-top: 3rem;
+        }
+        @media (max-width: 768px) {
+            .logo {
+                max-width: 90px;
+            }
+            h1 {
+                font-size: 2.4rem;
+            }
+            header {
+                padding: 2rem 1rem;
+            }
         }
     </style>
 </head>
